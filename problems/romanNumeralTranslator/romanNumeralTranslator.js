@@ -1,4 +1,3 @@
-
 /**
  * Given a roman numeral as input, write a function that converts the roman
  * numeral to a number and outputs it.
@@ -16,7 +15,7 @@
  * You should return `null` on invalid input.
  */
 
-var DIGIT_VALUES = {
+var DIGIT_VALUES = function() {
   I: 1,
   V: 5,
   X: 10,
@@ -26,8 +25,43 @@ var DIGIT_VALUES = {
   M: 1000
 };
 
-var translateRomanNumeral = function(romanNumeral) {
-// TODO: Implement me!
-/* START SOLUTION */
+var translateRomanNumeral = function(romanNumeral)[{
+  // TODO: Implement me!
+  /* START SOLUTION */
+  {
+    numeral: M,
+    value: 1000
+  },
+  {
+    numeral: CM,
+    value: 900
+  },
+
+  {                // solutio
+    numeral: D,
+                  //         return solution
+    valuea: 500
+  },
+  {
+    numeral: C,
+    value:  100
+  },
+{
+  numeral: L,
+  value: 50
+},
+  {
+  numeral: X,
+  value: 10
+},
+{
+  numeral: V,
+  value: 5
+},
+{
+  numeral: I,
+  value
+}
+
   /* END SOLUTION */
-};
+};]
